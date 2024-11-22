@@ -4,7 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sabina Scopigno's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          line-height: 1.6;
+          background-color: #f4f4f9;
+          color: #333;
+      }
+      header {
+          background: #333;
+          color: #fff;
+          padding: 1rem 0;
+          text-align: center;
+      }
+      nav {
+          margin-top: 1rem;
+      }
+      nav a {
+          color: #fff;
+          text-decoration: none;
+          margin: 0 1rem;
+          font-weight: bold;
+      }
+      nav a:hover {
+          text-decoration: underline;
+      }
+      .container {
+          width: 80%;
+          margin: auto;
+          overflow: hidden;
+          padding: 2rem;
+      }
+      section {
+          margin-bottom: 2rem;
+      }
+      section h2 {
+          color: #333;
+          border-bottom: 2px solid #ddd;
+          padding-bottom: 0.5rem;
+      }
+      .project {
+          background: #ddd;
+          margin: 1rem 0;
+          padding: 1rem;
+          border-radius: 5px;
+      }
+      footer {
+          text-align: center;
+          padding: 1rem 0;
+          background: #333;
+          color: #fff;
+      }
+  </style>
 </head>
 <body>
   <header>
@@ -16,21 +69,28 @@
     </nav>
   </header>
 
-  <section id="about">
-    <h2>My bio</h2>
-    <p>Hi, I'm Sabina, I'm 27 years old and I am studying to become a web developer.</p>
-  </section>
+  <div class="container">
+    <section id="about">
+      <h2>My bio</h2>
+      <p>Hi, I'm Sabina, I'm 27 years old and I am studying to become a web developer.</p>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project 1</h3>
-      <p>A website about a popular piece of media: Silent Hill.</p>
-    </div>
-  </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>A website about a popular piece of media: Silent Hill.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:sabina@example.com">sabina@example.com</a></p>
+    </section>
+  </div>
 
   <footer>
-    <p>© 2024 Il Portfolio di Sabina</p>
+    <p>© 2024 Sabina Scopigno's Portfolio</p>
   </footer>
 </body>
 </html>
